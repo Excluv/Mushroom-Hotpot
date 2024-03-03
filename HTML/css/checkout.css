@@ -1,0 +1,39 @@
+main {
+    min-height: 800px;
+}
+
+div.delivery,
+div.order {
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.information {
+    margin-top: 20px;
+    width: 100%;
+}
+
+table.information td {
+    background: rgba(227, 227, 227, 0.5);
+}
+
+table.information tr td:nth-child(1) {
+    width: 350px;
+}
+
+table.information tr td:nth-child(2) {
+    width: 350px;
+}
+
+div.order {
+    padding-bottom: 50px;
+}
+
+div p.title {
+    text-align: left;
+}
+
+table.general.cart {
+    margin-top: 20px;
+}

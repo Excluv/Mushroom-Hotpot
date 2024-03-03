@@ -1,0 +1,39 @@
+main {
+    min-height: 200px;
+}
+
+div.headline {
+    display: flex;
+    flex-direction: row;
+}
+
+div.headline div.title {
+    width: 150px;
+}
+
+div.headline button {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+div.headline button,
+table button {
+    height: 35px;
+    width: 70px;
+    background: rgba(60, 35, 23, 1);
+    color: rgb(250, 247, 240);
+    border: none;
+    font-size: 15px;
+}
+
+main button a {
+    text-decoration: none;
+}
+
+main button:hover {
+    background: rgba(60, 35, 23, 0.6);
+}
+
+table.general.cart tr td:last-child {
+    width: 200px;
+}

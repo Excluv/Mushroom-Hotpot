@@ -1,0 +1,440 @@
+@font-face {
+    font-family: Acumin Variable Concept;
+    src: url("./assets/Acumin-Variable-Concept.ttf");
+}
+
+@font-face {
+    font-family: Script MT Bold;
+    src: url("./assets/SCRIPTBL.TTF");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative;
+    font-family: Impact;
+}
+
+body {
+    background: #606060;
+}
+
+/* Page header */
+header {
+    width: 1140px;
+    height: 366px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header a {
+    color:rgb(250, 247, 240);
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.bg-curtain {
+    background: rgba(60, 35, 23, 0.6);
+    background-repeat : no-repeat;
+    color: rgb(250, 247, 240);
+}
+
+.bg-img {
+    background: linear-gradient(rgba(60, 35, 23, 0.6), rgba(60, 35, 23, 0.6)), url("./assets/Banner.jpg");
+    background-size: cover;
+    width: 1140px;
+    height: 366px;
+}
+
+nav {
+    height: 100px;
+    width: 1140px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+nav .logo {
+    float: left;
+    margin-left: 90px;
+}
+
+nav .logo a {
+    inline-size: 150px;
+    word-wrap: break-word;
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 26px;
+}
+
+div.logo a:hover {
+    color: rgba(60, 35, 23, 1);
+}
+
+button.booking {
+    background: rgba(60, 35, 23, 1);
+    color: rgb(250, 247, 240);
+    border: 0px;
+    text-transform: uppercase;
+    float: right;
+    margin-right: 30px;
+    margin-left: 15px;
+}
+
+button.booking a {
+    font-family: Acumin Variable Concept;
+    font-weight: 250;
+    margin-top: 4px;
+    font-size: 15px;
+}
+
+button.booking:hover {
+    background: rgba(60, 35, 23, 0.65);
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    display: flex;
+}
+
+nav ul a:hover {
+    background: rgba(60, 35, 23, 1);
+}
+
+div.banner-headline{
+    font-size: 40px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+div.banner-content {
+    font-family: Acumin Variable Concept;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 250;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Page main */
+main {
+    width: 1140px;
+    min-height: 1460px;
+    background: #FAF7F0;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.information,
+div.review {
+    display: flex;
+}
+
+div.left {
+    width: 461px;
+    margin-left: 40px;
+}
+
+div.information div.title {
+    background: rgba(227, 227, 227, 1);
+    border-radius: 30px;
+    font-size: 25px;
+}
+
+div.split.left div.title {
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+img.product {
+    height: 461px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 45px 45px;
+    margin-top: 5px;
+}
+
+div.right {
+    width: 500px;
+    margin-left: 20px;
+}
+
+div.right p.description {
+    inline-size: 500px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+    font-family: Acumin Variable Concept;
+    font-size: 18px;
+}
+
+div.right p.price,
+div.right div.rating,
+div.right ul {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+div.right p.price {
+    color: rgba(60, 35, 23, 1);
+    font-size: 25px;
+}
+
+div.right div.share p {
+    font-family: Acumin Variable Transform;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+div.right ul {
+    list-style: none;
+    display: flex;
+}
+
+div.right ul li{
+    margin-left: 3px;
+    margin-right: 3px
+}
+
+div.right ul li img{
+    width: 20px;
+    height: 20px;
+}
+
+div.right form {
+    font-size: 0px;
+    display: flex;
+}
+
+div.right form input {
+    width: 60px;
+    height: 30px;
+    background: #E3E3E3;
+    text-align: center;
+    font-size: 22px;
+    border: none;
+}
+
+div.right form .plus-minus {
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(250, 247, 240);
+    background: rgba(60, 35, 23, 1);
+}
+
+button.submit {
+    width: 120px;
+    background: rgba(60, 35, 23, 1);
+    color: rgb(250, 247, 240);
+    font-family: Acumin Variable Concept;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+button:hover, 
+div.right form .plus-minus:hover {
+    background: rgba(60, 35, 23, 0.6);
+}
+
+div.right form button.submit {
+    margin-left: 10px;
+}
+
+div.review-section {
+    margin-top: 80px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.review {
+    margin-top: 30px;
+}
+
+div.review-section div.title {
+    background: none;
+    font-family: Script MT Bold;
+    color: rgba(60, 35, 23, 1);
+    font-size: 35px;
+    text-align: left;
+}
+
+div.review-section hr {
+    border: 1px solid rgba(60, 35, 23, 1);
+}
+
+div.review div.left {
+    margin-left: 0px;
+}
+
+div.review ul {
+    list-style: none;
+}
+
+div.review ul li {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+div.review img.userpic {
+    width: 45px;
+    height: 45px;
+}
+
+div.review ul li div.info {
+    margin-left: 20px;
+}
+
+div.review ul li div.rating {
+    margin-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(60, 35, 23, 1);
+}
+
+div.review ul li p.content {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+div.review-section p {
+    font-family: Acumin Variable Concept;
+    font-size: 18px;
+}
+
+div.review div.right div.title {
+    font-family: Impact;
+    font-size: 27px;
+}
+
+div.review div.right p.requirement {
+    font-size: 13px;
+}
+
+div.review div.right div.input, p.requirement {
+    margin-top: 20px;
+}
+
+div.rating-input {
+    margin-top: 20px;
+}
+
+div.input textarea {
+    width: 475px;
+    height: 190px;
+    font-family: Acumin Variable Concept;
+    font-size: 15px;
+}
+
+div.right div.input input {
+    font-family: Acumin Variable Concept;
+    width: 475px;
+    min-height: 30px;
+    font-size: 15px;
+}
+
+div.review div.right button {
+    margin-top: 20px;
+    width: 141px;
+    height: 44px;
+    border: none;
+    font-family: Impact;
+    font-size: 18px;
+    padding-top: 0px;
+}
+
+
+/* Page footer */
+footer{
+    background: rgba(60, 35, 23, 1);
+    width: 1140px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(250, 247, 240);
+}
+
+ul.redirect {
+    list-style: none;
+    display: flex;
+}
+
+ul li.link {
+    margin-top: 36px;
+    margin-left: 72px;
+    width: 170px;
+}
+
+ul li.link div.title {
+    display: flex;
+    font-size: 20px;
+}
+
+ul.redirect li.link div.title hr {
+    position: absolute;
+    top: 12px;
+    right: 0px;
+    width: 25%;
+}
+
+li.link div.sub-link a{
+    text-decoration: none;
+}
+
+li.link div.sub-link pre {
+    font-family: Acumin Variable Concept;
+    color:rgb(250, 247, 240);
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+li.link div.sub-link ul li {
+    display: flex;
+}
+
+li.link div.sub-link ul li img{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 20px;
+    margin-right: 10px;
+}
+
+li.link div.email-signup p {
+    font-family: Acumin Variable Concept;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+li.link div.email-signup form {
+    width: 209px;
+    height: 35px;
+    display: flex;
+    border: 1px solid rgb(250, 247, 240);
+    background: #fff;
+}
+
+li.link div.email-signup form button {
+    font-family: Acumin Variable Concept;
+    font-size: 13px;
+    color:rgb(250, 247, 240);
+    background: rgba(60, 35, 23, 1);
+    border: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2px 10px 0px 10px;
+}
+
+li.link div.email-signup form button:hover {
+    background:rgba(60, 35, 23, 0.65);
+}

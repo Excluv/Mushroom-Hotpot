@@ -1,0 +1,25 @@
+div.left,
+div.right {
+    width: 50%;
+    padding: 0px 50px 0px 50px;
+}
+
+div.left {
+    margin-right: 0px;
+}
+
+main p.headline {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+}
+
+main div.short-input {
+    display: flex;
+}
+
+main div.short input{
+    width: 150px;
+    margin-right: 20px;
+}

@@ -1,0 +1,60 @@
+main div.title {
+    background: rgba(227, 227, 227, 0.7);
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 18px 18px;
+    font-size: 20px;
+    color: rgba(60, 35, 23, 1);
+    width: 210px;
+    height: 45px;
+    padding-top: 9px;
+    margin-bottom: 30px;
+}
+
+div.horizontal-input {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+div.horizontal-input p {
+    font-family: Acumin Variable Concept;
+    font-size: 18px;
+}
+
+div.horizontal-input div.input {
+    margin-right: 50px;
+}
+
+div.horizontal-input input {
+    width: 350px;
+    height: 30px;
+    font-family: Acumin Variable Concept;
+    font-size: 15px;
+}
+
+div.horizontal-input div.short input{
+    width: 250px;
+}
+
+div.horizontal-input div.shortest input{
+    width: 150px;
+    margin-right: 50px;
+}
+
+div.horizontal-input button {
+    width: 100px;
+    height: 30px;
+    margin-top: 22px;
+    margin-left: 17px;
+    padding-top: 3px;
+    font-family: Acumin Variable Concept;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(250, 247, 240);
+    background: rgba(60, 35, 23, 1);
+    border: none;
+}
+
+div.horizontal-input button:hover {
+    background: rgba(60, 35, 23, 0.6);
+}
